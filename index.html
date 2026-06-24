@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jérémy Baudry | Développeur Senior .NET — WPF/MVVM &amp; outils métiers</title>
+  <meta name="description" content="Jérémy Baudry, développeur Senior .NET spécialisé WPF/MVVM, architecture applicative et outils métiers. API, SQL Server, Revit. Freelance depuis 2018, ouvert CDI.">
+  <meta name="keywords" content="développeur .NET, C#, API REST, SQL Server, back-end, ASP.NET Core, WPF, Entity Framework, freelance, Revit, développeur indépendant">
+  <meta name="author" content="Jérémy Baudry">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://jeremy-baudry.pages.dev/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jérémy Baudry — Développeur Senior .NET WPF/MVVM &amp; outils métiers">
+  <meta property="og:description" content="Développeur .NET : back-end, API REST, SQL Server et applications métier. Expertise WPF et intégration Revit. Freelance et CDI.">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:image" content="https://jeremy-baudry.pages.dev/public/photo-jeremy-baudry.jpg">
+  <meta name="theme-color" content="#0f172a">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>JB</text></svg>">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "name": "Jérémy Baudry",
+        "jobTitle": "Développeur Senior .NET — WPF/MVVM",
+        "email": "jeremy.baudry@outlook.fr",
+        "telephone": "+33616728691",
+        "url": "https://jeremy-baudry.pages.dev/",
+        "image": "https://jeremy-baudry.pages.dev/public/photo-jeremy-baudry.jpg",
+        "sameAs": [
+          "https://www.linkedin.com/in/j%C3%A9r%C3%A9my-baudry-4023a849/",
+          "https://www.malt.fr/profile/jeremybaudry"
+        ],
+        "knowsAbout": ["C#", ".NET", "API REST", "SQL Server", "ASP.NET Core", "Entity Framework", "WPF", "MVVM", "Revit API", "AutoCAD", "Angular"],
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Freelance"
+        }
+      }
+    ]
+  }
+  </script>
+  <!-- Cloudflare Web Analytics : remplacez YOUR_TOKEN après création du site sur Cloudflare Pages -->
+  <!-- <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "YOUR_TOKEN"}'></script> -->
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="Accueil">
+        <span class="logo-mark">JB</span>
+        <span class="logo-text">Jérémy Baudry</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav-menu" aria-label="Navigation principale">
+        <a href="#expertise">Expertise</a>
+        <a href="#experiences">Expériences</a>
+        <a href="#formation">Formation</a>
+        <a href="#temoignages">Avis &amp; skills</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Développeur Senior .NET</p>
+          <h1>Jérémy <span class="gradient-text">Baudry</span></h1>
+          <p class="hero-lead">
+            Spécialisé <strong>WPF/MVVM</strong>, architecture applicative et développement d'<strong>outils métiers</strong>.
+          </p>
+
+          <div class="hero-story">
+            <p>Un parcours atypique, beaucoup de passion. J'ai débuté dans la <strong>DAO</strong> (LISP, macros VBA), puis les outils se sont ouverts aux <strong>API .NET</strong>. Après plus de 10 ans sur le terrain, j'ai orienté mon activité vers la programmation et des missions chez de grands comptes — Vinci, Natixis, La Française, Sogitec, Egis, Fnac…</p>
+            <p class="hero-highlight">Je comprends le métier et je me mets à la place des utilisateurs — pour concevoir des outils qu'on adopte vraiment.</p>
+          </div>
+
+          <p class="hero-sub">
+            <strong>Freelance</strong> depuis 2018
+            <span class="dot">·</span>
+            Ouvert aux opportunités en <strong>CDI</strong>
+          </p>
+
+          <div class="hero-traits">
+            <h2 class="hero-traits-title">Forces et caractère</h2>
+            <ul class="hero-traits-list">
+              <li>Curiosité, esprit d'équipe et ouverture d'esprit</li>
+              <li>Perspicacité, forte capacité d'apprentissage</li>
+              <li>Persévérance</li>
+              <li>Adaptabilité</li>
+              <li>Sens des responsabilités, prise d'initiative</li>
+              <li>Pédagogue</li>
+              <li>Humilité</li>
+            </ul>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Échanger sur un projet</a>
+            <a href="public/cv-jeremy-baudry.docx" class="btn btn-secondary" download id="cv-download">
+              Télécharger mon CV
+            </a>
+          </div>
+          <div class="hero-meta">
+            <span>Belforêt-en-Perche (61)</span>
+            <span class="dot">·</span>
+            <span>20+ ans d'expérience technique</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-photo-wrap">
+            <img
+              src="public/photo-jeremy-baudry.jpg"
+              alt="Jérémy Baudry — Développeur .NET C#"
+              class="hero-photo"
+              width="400"
+              height="400"
+              loading="eager"
+            >
+          </div>
+          <div class="hero-tech-years">
+            <p class="hero-tech-years-title">Années d'expérience</p>
+            <ul class="tech-years-grid tech-years-grid-hero" id="tech-experience-list" aria-live="polite"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="expertise">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">Domaines</p>
+          <h2>Ce que je réalise</h2>
+          <p>Profil .NET large : back-end et données en priorité, avec une solide expérience desktop et BIM.</p>
+        </header>
+        <div class="expertise-grid">
+          <article class="expertise-card expertise-card-highlight">
+            <div class="expertise-icon" aria-hidden="true">🔌</div>
+            <h3>Back-end, API &amp; SQL</h3>
+            <p>API REST, ASP.NET Core, microservices, procédures stockées, Entity Framework, rapports SSRS et architectures orientées données.</p>
+          </article>
+          <article class="expertise-card">
+            <div class="expertise-icon" aria-hidden="true">⚙️</div>
+            <h3>Applications .NET &amp; WPF</h3>
+            <p>Logiciels métier, MVVM, bibliothèques de contrôles, SignalR temps réel — forte expertise, ouverte aux stacks .NET plus larges.</p>
+          </article>
+          <article class="expertise-card">
+            <div class="expertise-icon" aria-hidden="true">🏗️</div>
+            <h3>API Autodesk &amp; DAO</h3>
+            <p>Revit, AutoCAD et BIM : add-ins .NET, APIs Autodesk, export de données, formatage de familles, macros VBA et LISP — double culture métier projeteur et développement.</p>
+          </article>
+          <article class="expertise-card">
+            <div class="expertise-icon" aria-hidden="true">📊</div>
+            <h3>Office &amp; intégration</h3>
+            <p>Add-ins Excel, Word, Outlook, PowerPoint. Automatisation documentaire et échanges de données.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experiences">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">Parcours</p>
+          <h2>Expériences professionnelles</h2>
+        </header>
+
+        <div class="clients-strip" aria-label="Quelques clients et employeurs">
+          <div class="company-logo" data-logo-file="public/logos/egis.jpg" data-fallback="EG" title="Egis"></div>
+          <div class="company-logo" data-logo-file="public/logos/fnac.svg" data-fallback="FN" title="Fnac"></div>
+          <div class="company-logo" data-logo-file="public/logos/natixis.jpg" data-fallback="NX" title="Natixis"></div>
+          <div class="company-logo" data-logo-file="public/logos/vinci.png" data-fallback="VI" title="Vinci"></div>
+          <div class="company-logo" data-logo-file="public/logos/jacobs.png" data-fallback="JC" title="Jacobs"></div>
+          <div class="company-logo" data-logo-file="public/logos/lapeyre.png" data-fallback="LP" title="Lapeyre"></div>
+          <div class="company-logo" data-logo-file="public/logos/satam.png" data-fallback="ST" title="Satam"></div>
+        </div>
+
+        <div class="exp-track">
+
+          <!-- Freelance -->
+          <section class="exp-group">
+            <header class="exp-group-head">
+              <h3 class="exp-group-title">Freelance</h3>
+              <span class="exp-group-period">nov. 2018 — aujourd'hui</span>
+            </header>
+
+            <div class="exp-group-entries">
+
+            <article class="exp-mission" data-period="2024-09/">
+              <div class="company-logo exp-logo" data-logo-file="public/logos/egis.jpg" data-fallback="EG" aria-hidden="true"></div>
+              <div class="exp-body">
+                <time datetime="2024-09/2026-05">Sept. 2024 — Mai 2026</time>
+                <h4>Egis <span class="timeline-sector">Construction</span></h4>
+                <p class="timeline-role">Développeur .NET</p>
+                <ul class="timeline-tasks">
+                  <li>Développement et intégration WPF / Revit : bibliothèque de contrôles WPF intégrée dans Autodesk Revit via un add-in</li>
+                  <li>MVVM, injection de dépendances, appels REST vers services no-code (Simplicité)</li>
+                  <li>Add-in de formatage de familles Revit</li>
+                  <li>Reprise et maintenance d'applications internes (.NET + Angular) : profils Whoz, référentiels documents et projets</li>
+                  <li>Corrections, évolutions et livraisons jusqu'à mise en place d'une équipe dédiée en Inde — transfert de compétences</li>
+                  <li>Animation de réunions de bonnes pratiques et accompagnement des développeurs Revit</li>
+                </ul>
+                <ul class="tags tags-sm"><li>C#</li><li>WPF</li><li>MVVM</li><li>Revit API</li><li>API REST</li><li>Angular</li><li>Git</li></ul>
+              </div>
+            </article>
+
+            <article class="exp-mission" data-period="2023-09/2024-06">
+              <div class="company-logo exp-logo" data-logo-file="public/logos/satam.png" data-fallback="ST" aria-hidden="true"></div>
+              <div class="exp-body">
+                <time datetime="2023-09/2024-06">Sept. 2023 — Juin 2024</time>
+                <h4>Satam <span class="timeline-sector">Mécanique</span></h4>
+                <p class="timeline-role">Développeur .NET · équipe de 3 développeurs</p>
+                <ul class="timeline-tasks">
+                  <li>Application de gestion de dépôt d'essence : file d'attente, attribution des îlots de chargement, appel chauffeur</li>
+                  <li>Mise en place de SignalR pour l'échange entre les modules</li>
+                  <li>Refonte de l'architecture : découpage, injection de dépendances, passage au MVVM</li>
+                </ul>
+                <ul class="tags tags-sm"><li>C#</li><li>WPF</li><li>MVVM</li><li>SignalR</li><li>Git</li></ul>
+              </div>
+            </article>
+
+            <article class="exp-mission" data-period="2021-09/2023-09">
+              <div class="company-logo exp-logo" data-logo-file="public/logos/fnac.svg" data-fallback="FN" aria-hidden="true"></div>
+              <div class="exp-body">
+                <time datetime="2021-09/2023-09">Sept. 2021 — Sept. 2023</time>
+                <h4>Fnac <span class="timeline-sector">Commerce</span></h4>
+                <p class="timeline-role">Développeur .NET · 1 PO, 3 développeurs</p>
+                <ul class="timeline-tasks">
+                  <li>Moteur de règles pour le calcul d'affichage de stimuli en magasin</li>
+                  <li>Site web d'administration des règles</li>
+                  <li>Développement d'une API et création de l'architecture du projet</li>
+                  <li>Application de génération de scripts SQL et personnalisation d'un query builder</li>
+                </ul>
+                <ul class="tags tags-sm"><li>C#</li><li>API REST</li><li>Angular</li><li>JavaScript</li><li>WPF</li><li>Git</li></ul>
+              </div>
+            </article>
+
+            <article class="exp-mission" data-period="2021-03/2021-09">
+              <div class="company-logo exp-logo" data-logo-file="public/logos/lapeyre.png" data-fallback="LP" aria-hidden="true"></div>
+              <div class="exp-body">
+                <time datetime="2021-03/2021-09">Mars 2021 — Sept. 2021</time>
+                <h4>Lapeyre <span class="timeline-sector">Commerce</span></h4>
+                <p class="timeline-role">Développeur .NET · 1 PO, 1 développeur, 1 testeur</p>
+                <ul class="timeline-tasks">
+                  <li>Application de vente additionnelle pour la cuisine — add-in InSitu</li>
+                  <li>Création de l'architecture du projet</li>
+                  <li>Application de tests automatiques et outil d'analyse du catalogue InSitu</li>
+                </ul>
+                <ul class="tags tags-sm"><li>C#</li><li>WPF</li><li>InSitu</li><li>JSON</li><li>OpenXML</li></ul>
+              </div>
+            </article>
+
+            <article class="exp-mission" data-period="2020-03/2020-11">
+              <div class="company-logo exp-logo" data-logo-file="public/logos/ekaton.png" data-fallback="EK" aria-hidden="true"></div>
+              <div class="exp-body">
+                <time datetime="2020-03/2020-11">Mars 2020 — Nov. 2020</time>
+                <h4>Ekaton <span class="timeline-sector">Multimédia</span></h4>
+                <p class="timeline-role">Développeur .NET · 1 PO, 2 développeurs</p>
+                <ul class="timeline-tasks">
+                  <li>Application de gestion de votes en direct</li>
+                  <li>Développement d'un add-in PowerPoint</li>
+                  <li>Création de l'architecture du projet</li>
+                </ul>
+                <ul class="tags tags-sm"><li>C#</li><li>WPF</li><li>Socket.IO</li><li>JSON</li></ul>
+              </div>
+            </article>
+
+            <article class="exp-mission" data-period="2018-11/2019-11">
+              <div class="company-logo exp-logo" data-logo-file="public/logos/telelingua.png" data-fallback="TL" aria-hidden="true"></div>
+              <div class="exp-body">
+                <time datetime="2018-11/2019-11">Nov. 2018 — Nov. 2019</time>
+                <h4>Telelingua <span class="timeline-sector">Traduction</span></h4>
+                <p class="timeline-role">Développeur .NET</p>
+                <ul class="timeline-tasks">
+                  <li>Application de gestion de projets de traduction</li>
+                  <li>Création de microservices REST</li>
+                  <li>Add-in Outlook et application intégrée à Azure AD</li>
+                </ul>
+                <ul class="tags tags-sm"><li>C#</li><li>WPF</li><li>ASP.NET Core</li><li>Azure AD</li><li>BPMS</li></ul>
+              </div>
+            </article>
+
+            </div>
+          </section>
+
+          <!-- AGAP2 -->
+          <section class="exp-group">
+            <header class="exp-group-head">
+              <div class="company-logo exp-logo exp-logo-employer" data-logo-file="public/logos/agap2.png" data-fallback="A2" aria-hidden="true"></div>
+              <div>
+                <h3 class="exp-group-title">AGAP2 IT</h3>
+                <span class="exp-group-period">ESN · 2016 — 2018</span>
+              </div>
+            </header>
+
+            <div class="exp-group-entries">
+
+            <article class="exp-mission" data-period="2018-06/2018-09">
+              <div class="company-logo exp-logo" data-logo-file="public/logos/sogitec.png" data-fallback="SG" aria-hidden="true"></div>
+              <div class="exp-body">
+                <time datetime="2018-06/2018-09">Juin 2018 — Sept. 2018</time>
+                <h4>Sogitec <span class="timeline-sector">Aéronautique</span></h4>
+                <p class="timeline-role">Développeur .NET · 1 chef de projet, 1 développeur client lourd</p>
+                <ul class="timeline-tasks">
+                  <li>Application de gestion de fonds documentaire pour le programme Rafale</li>
+                  <li>Corrections, évolutions et développement d'écrans C# WPF</li>
+                  <li>Développement de composants génériques</li>
+                </ul>
+                <ul class="tags tags-sm"><li>C#</li><li>WPF</li><li>MVVM</li><li>NHibernate</li></ul>
+              </div>
+            </article>
+
+            <article class="exp-mission" data-period="2017-07/2018-05">
+              <div class="company-logo exp-logo" data-logo-file="public/logos/la-francaise.svg" data-fallback="LF" aria-hidden="true"></div>
+              <div class="exp-body">
+                <time datetime="2017-07/2018-05">Juil. 2017 — Mai 2018</time>
+                <h4>La Française <span class="timeline-sector">Immobilier</span></h4>
+                <p class="timeline-role">Développeur .NET · 1 CPT, 1 MOA, 3 développeurs</p>
+                <ul class="timeline-tasks">
+                  <li>Application YARIS — gestion de l'activité immobilière complète</li>
+                  <li>Prise en main du framework maison, refactoring d'écrans métier</li>
+                  <li>Export selon la norme FIDJI, transcoding SQL Server, rapports SSRS</li>
+                  <li>Développement de composants génériques</li>
+                </ul>
+                <ul class="tags tags-sm"><li>C#</li><li>WPF</li><li>T-SQL</li><li>SSRS</li><li>DevExpress</li></ul>
+              </div>
+            </article>
+
+            <article class="exp-mission" data-period="2016-06/2017-06">
+              <div class="company-logo exp-logo" data-logo-file="public/logos/natixis.jpg" data-fallback="NX" aria-hidden="true"></div>
+              <div class="exp-body">
+                <time datetime="2016-06/2017-06">Juin 2016 — Juin 2017</time>
+                <h4>Natixis <span class="timeline-sector">Assurance</span></h4>
+                <p class="timeline-role">Développeur .NET · département RAD</p>
+                <ul class="timeline-tasks">
+                  <li>Développement en autonomie avec le client, de la collecte du besoin à la livraison</li>
+                  <li>Architecture MVVM et bibliothèque d'éléments graphiques (info utilisateur, vérification IBAN…)</li>
+                  <li>Application WPF d'envoi d'e-mails automatiques vers les banques</li>
+                  <li>Application CE de collecte de factures garde d'enfants (remboursement)</li>
+                  <li>Génération de courriers Word</li>
+                </ul>
+                <ul class="tags tags-sm"><li>C#</li><li>WPF</li><li>MVVM</li><li>LINQ to XML</li><li>VBA</li></ul>
+              </div>
+            </article>
+
+            </div>
+          </section>
+
+          <!-- NEOS-SDI -->
+          <section class="exp-group">
+            <header class="exp-group-head">
+              <div class="company-logo exp-logo exp-logo-employer" data-logo-file="public/logos/neos-sdi.png" data-fallback="NS" aria-hidden="true"></div>
+              <div>
+                <h3 class="exp-group-title">NEOS-SDI</h3>
+                <span class="exp-group-period">ESN · Paris · 2013 — 2016</span>
+              </div>
+            </header>
+
+            <div class="exp-group-entries">
+
+            <article class="exp-mission" data-period="2013-07/2016-05">
+              <div class="company-logo exp-logo" data-logo-file="public/logos/vinci.png" data-fallback="VI" aria-hidden="true"></div>
+              <div class="exp-body">
+                <time datetime="2013-07/2016-05">Juil. 2013 — Mai 2016</time>
+                <h4>Vinci <span class="timeline-sector">Construction</span></h4>
+                <p class="timeline-role">Développeur .NET · SI 40 personnes, 4 développeurs</p>
+                <ul class="timeline-tasks">
+                  <li>Application web de location de matériel en Silverlight, connectée au SI (réservation, planning, localisation, devis, bons de livraison…)</li>
+                  <li>Application de prévisions financières et suivi de chantiers</li>
+                  <li>Procédures stockées T-SQL (CTE), scripts de redressement de données, tests, interface MOA</li>
+                  <li><strong>Projet ponctuel (avr.–juil. 2015) :</strong> application Windows appels d'offres et suivi de chantier — fiche projet WPF/MVVM</li>
+                </ul>
+                <ul class="tags tags-sm"><li>C#</li><li>Silverlight</li><li>WPF</li><li>MVVM</li><li>Entity Framework</li><li>MEF</li><li>SQL Server</li><li>T-SQL</li></ul>
+              </div>
+            </article>
+
+            </div>
+          </section>
+
+          <!-- Jacobs -->
+          <section class="exp-group">
+            <header class="exp-group-head">
+              <div class="company-logo exp-logo exp-logo-employer" data-logo-file="public/logos/jacobs.png" data-fallback="JC" aria-hidden="true"></div>
+              <div>
+                <h3 class="exp-group-title">Jacobs</h3>
+                <span class="exp-group-period">Construction · Paris · 2006 — 2013</span>
+              </div>
+            </header>
+
+            <div class="exp-group-entries">
+
+            <article class="exp-mission" data-period="2012-01/2013-07">
+              <div class="company-logo exp-logo" data-logo-file="public/logos/jacobs.png" data-fallback="JC" aria-hidden="true"></div>
+              <div class="exp-body">
+                <time datetime="2012-01/2013-07">Janv. 2012 — Juil. 2013</time>
+                <h4>Jacobs <span class="timeline-sector">Construction</span></h4>
+                <p class="timeline-role">Développeur .NET &amp; support informatique</p>
+                <ul class="timeline-tasks">
+                  <li>Extensions Revit pour extraction/import de données et vérification des versions logicielles</li>
+                  <li>Application de déploiement logiciel (nouveaux arrivants, mises à jour, licences, configuration poste)</li>
+                  <li>Application de gestion des formations, habilitations et visites médicales (sites sensibles)</li>
+                  <li>Application de commande d'EPI (consommation et péremption)</li>
+                  <li>Documentation utilisateur, déploiement et formation</li>
+                </ul>
+                <ul class="tags tags-sm"><li>C#</li><li>VB.NET</li><li>WPF</li><li>Revit API</li><li>SQL Server</li></ul>
+              </div>
+            </article>
+
+            <article class="exp-mission" data-period="2009-01/2011-12">
+              <div class="company-logo exp-logo" data-logo-file="public/logos/jacobs.png" data-fallback="JC" aria-hidden="true"></div>
+              <div class="exp-body">
+                <time datetime="2009-01/2011-12">Janv. 2009 — Déc. 2011</time>
+                <h4>Jacobs <span class="timeline-sector">Construction</span></h4>
+                <p class="timeline-role">Support SI &amp; développement d'outils</p>
+                <ul class="timeline-tasks">
+                  <li>Modules VBA Excel, Word, Access → Excel, Outlook (signatures, archivage e-mails)</li>
+                  <li>Add-ins AutoCAD en VB.NET : ruban et nouvelles fonctionnalités</li>
+                  <li>Support fonctionnel et technique, formation utilisateurs</li>
+                </ul>
+                <ul class="tags tags-sm"><li>VBA</li><li>VB.NET</li><li>AutoCAD</li><li>WPF</li></ul>
+              </div>
+            </article>
+
+            <article class="exp-mission" data-period="2006-01/2008-12">
+              <div class="company-logo exp-logo" data-logo-file="public/logos/jacobs.png" data-fallback="JC" aria-hidden="true"></div>
+              <div class="exp-body">
+                <time datetime="2006-01/2008-12">Janv. 2006 — Déc. 2008</time>
+                <h4>Jacobs <span class="timeline-sector">Construction</span></h4>
+                <p class="timeline-role">Projeteur plomberie, fluides médicaux &amp; protection incendie</p>
+                <ul class="timeline-tasks">
+                  <li>Plans de bâtiments hospitaliers, tertiaires et industriels</li>
+                  <li>Module VBA AutoCAD pour la charte graphique de la société</li>
+                  <li>Application de nettoyage de plans pour diffusion et XREF</li>
+                  <li>Outils VBA : comptage, métré, formatage texte, aides au dessin</li>
+                </ul>
+                <ul class="tags tags-sm"><li>AutoCAD</li><li>VBA</li><li>DAO</li></ul>
+              </div>
+            </article>
+
+            </div>
+          </section>
+
+          <!-- STECI -->
+          <section class="exp-group">
+            <header class="exp-group-head">
+              <h3 class="exp-group-title">BE STECI Ingénierie</h3>
+              <span class="exp-group-period">Construction · Brétigny · 2002 — 2006</span>
+            </header>
+
+            <div class="exp-group-entries">
+            <article class="exp-mission" data-period="2002-01/2006-01">
+              <div class="company-logo exp-logo" data-fallback="ST" aria-hidden="true"></div>
+              <div class="exp-body">
+                <time datetime="2002-01/2006-01">Janv. 2002 — Janv. 2006</time>
+                <h4>BE STECI Ingénierie <span class="timeline-sector">Construction</span></h4>
+                <p class="timeline-role">Projeteur</p>
+                <ul class="timeline-tasks">
+                  <li>Prestations en électricité, HVAC, plomberie et fluides médicaux</li>
+                  <li>Automatisation AutoCAD : macros LISP et VBA</li>
+                </ul>
+                <ul class="tags tags-sm"><li>AutoCAD</li><li>LISP</li><li>VBA</li><li>DAO</li></ul>
+              </div>
+            </article>
+            </div>
+          </section>
+
+          <!-- M3D -->
+          <section class="exp-group">
+            <header class="exp-group-head">
+              <h3 class="exp-group-title">Société M3D</h3>
+              <span class="exp-group-period">Lisses · 1999 — 2002</span>
+            </header>
+
+            <div class="exp-group-entries">
+            <article class="exp-mission" data-period="1999-01/2002-01">
+              <div class="company-logo exp-logo" data-fallback="M3" aria-hidden="true"></div>
+              <div class="exp-body">
+                <time datetime="1999-01/2002-01">1999 — 2002</time>
+                <h4>Société M3D</h4>
+                <p class="timeline-role">Technicien stagiaire (alternance)</p>
+                <ul class="timeline-tasks">
+                  <li>Métrologue, dessinateur, développeur VBA</li>
+                </ul>
+                <ul class="tags tags-sm"><li>VBA</li><li>DAO</li></ul>
+              </div>
+            </article>
+            </div>
+          </section>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="formation">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">Formation</p>
+          <h2>Parcours académique</h2>
+        </header>
+        <ol class="timeline timeline-compact">
+          <li class="timeline-item">
+            <time datetime="2002">2002</time>
+            <h3>DUT Génie Mécanique et Productique</h3>
+            <p>IUT d'Évry (91)</p>
+          </li>
+          <li class="timeline-item">
+            <time datetime="1999">1999</time>
+            <h3>Baccalauréat STI — Génie Mécanique</h3>
+            <p>Lycée J.-P. Timbaud (91)</p>
+          </li>
+          <li class="timeline-item">
+            <time datetime="1996">1996</time>
+            <h3>BEP et CAP Structure Métallique</h3>
+          </li>
+        </ol>
+        <p class="formation-extra">Langues : <strong>Anglais technique</strong></p>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="temoignages">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">Confiance</p>
+          <h2>Avis Malt &amp; compétences LinkedIn</h2>
+          <p>Avis clients vérifiés sur Malt et compétences validées sur mon profil LinkedIn.</p>
+        </header>
+
+        <div class="proof-layout">
+          <article class="reviews-card" aria-labelledby="reviews-title">
+            <header class="reviews-card-header">
+              <div>
+                <h3 id="reviews-title">Avis clients Malt</h3>
+                <p class="reviews-score">
+                  <span class="reviews-score-value">5,0</span>
+                  <span class="stars stars-sm" aria-label="5 sur 5">
+                    <span class="star filled"></span><span class="star filled"></span><span class="star filled"></span><span class="star filled"></span><span class="star filled"></span>
+                  </span>
+                  · 2 évaluations
+                </p>
+              </div>
+              <a href="https://www.malt.fr/profile/jeremybaudry" class="reviews-malt-link" target="_blank" rel="noopener noreferrer">
+                Voir sur Malt →
+              </a>
+            </header>
+
+            <div class="reviews-list">
+              <article class="review-item">
+                <div class="review-author">
+                  <span class="review-avatar" aria-hidden="true">P</span>
+                  <div>
+                    <p class="review-name">Philippe</p>
+                    <p class="review-company">EKATON</p>
+                  </div>
+                </div>
+                <div class="review-meta">
+                  <div class="stars stars-sm" aria-label="5 sur 5">
+                    <span class="star filled"></span><span class="star filled"></span><span class="star filled"></span><span class="star filled"></span><span class="star filled"></span>
+                  </div>
+                  <time datetime="2020-04-06">06/04/2020</time>
+                </div>
+                <div class="review-text is-collapsed" id="review-philippe">
+                  <p>Travailler avec Jérémy a été très agréable. Ses compétences sont excellentes. Il a très bien compris notre besoin et a su mettre en place une superbe solution. Il est complètement autonome et il communique quotidiennement si besoin sur l'avancement du projet.</p>
+                </div>
+                <button type="button" class="review-toggle" data-target="review-philippe" aria-expanded="false">
+                  Voir plus
+                </button>
+              </article>
+
+              <article class="review-item">
+                <div class="review-author">
+                  <span class="review-avatar" aria-hidden="true">E</span>
+                  <div>
+                    <p class="review-name">Etienne</p>
+                    <p class="review-company">Belier-Ing</p>
+                  </div>
+                </div>
+                <div class="review-meta">
+                  <div class="stars stars-sm" aria-label="5 sur 5">
+                    <span class="star filled"></span><span class="star filled"></span><span class="star filled"></span><span class="star filled"></span><span class="star filled"></span>
+                  </div>
+                  <time datetime="2020-05-19">19/05/2020</time>
+                </div>
+                <p class="review-placeholder">Avis vérifié sur Malt — texte complet sur la plateforme.</p>
+              </article>
+            </div>
+          </article>
+
+          <!-- Compétences LinkedIn -->
+          <article class="linkedin-skills-card" aria-labelledby="linkedin-skills-title">
+            <header class="linkedin-skills-header">
+              <svg class="proof-logo" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              <h3 id="linkedin-skills-title">Compétences LinkedIn</h3>
+            </header>
+            <p class="linkedin-skills-intro">Compétences déclarées et associées à mon expérience sur LinkedIn.</p>
+            <ul class="linkedin-skills-list">
+              <li class="linkedin-skill"><span>C#</span></li>
+              <li class="linkedin-skill"><span>.NET</span></li>
+              <li class="linkedin-skill"><span>Microsoft SQL Server</span></li>
+              <li class="linkedin-skill"><span>Entity Framework</span></li>
+              <li class="linkedin-skill"><span>WPF</span></li>
+              <li class="linkedin-skill"><span>ASP.NET Core</span></li>
+              <li class="linkedin-skill"><span>API REST</span></li>
+              <li class="linkedin-skill"><span>MVVM</span></li>
+              <li class="linkedin-skill"><span>JavaScript</span></li>
+              <li class="linkedin-skill"><span>Angular</span></li>
+              <li class="linkedin-skill"><span>Autodesk Revit</span></li>
+              <li class="linkedin-skill"><span>AutoCAD</span></li>
+              <li class="linkedin-skill"><span>Git</span></li>
+              <li class="linkedin-skill"><span>Azure</span></li>
+              <li class="linkedin-skill"><span>NHibernate</span></li>
+              <li class="linkedin-skill"><span>Visual Studio</span></li>
+            </ul>
+            <a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-baudry-4023a849/details/skills/" class="btn btn-outline linkedin-skills-cta" target="_blank" rel="noopener noreferrer">
+              Voir toutes les compétences sur LinkedIn →
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <header class="section-header section-header-left">
+            <p class="eyebrow">Contact</p>
+            <h2>Parlons de votre projet</h2>
+            <p>Mission freelance, mise à disposition en régie ou simple prise de contact — je réponds sous 48 h.</p>
+          </header>
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label">Email</span>
+              <a href="mailto:jeremy.baudry@outlook.fr">jeremy.baudry@outlook.fr</a>
+            </li>
+            <li>
+              <span class="contact-label">Téléphone</span>
+              <a href="tel:+33616728691">06 16 72 86 91</a>
+            </li>
+            <li>
+              <span class="contact-label">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-baudry-4023a849/" target="_blank" rel="noopener noreferrer">linkedin.com/in/jérémy-baudry</a>
+            </li>
+            <li>
+              <span class="contact-label">Malt</span>
+              <a href="https://www.malt.fr/profile/jeremybaudry" target="_blank" rel="noopener noreferrer">malt.fr/profile/jeremybaudry</a>
+            </li>
+          </ul>
+        </div>
+        <form class="contact-form" action="https://formsubmit.co/jeremy.baudry@outlook.fr" method="POST">
+          <input type="hidden" name="_subject" value="Contact depuis jeremy-baudry.fr">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+          <input type="hidden" name="_next" value="https://jeremy-baudry.pages.dev/?envoye=1">
+          <div class="form-group">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required autocomplete="name" placeholder="Votre nom">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required autocomplete="email" placeholder="vous@exemple.fr">
+          </div>
+          <div class="form-group">
+            <label for="subject">Sujet</label>
+            <select id="subject" name="subject">
+              <option value="Mission freelance / régie">Mission freelance / régie</option>
+              <option value="Opportunité CDI">Opportunité CDI</option>
+              <option value="Question générale">Question générale</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Décrivez brièvement votre besoin…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Envoyer le message</button>
+          <p class="form-note">Premier envoi : FormSubmit vous demandera de confirmer votre email (une seule fois).</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Jérémy Baudry</p>
+      <p class="footer-sub">Développeur Senior .NET — Belforêt-en-Perche</p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden>
+    Message envoyé — merci, je vous réponds rapidement.
+  </div>
+
+  <script src="js/tech-experience.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
