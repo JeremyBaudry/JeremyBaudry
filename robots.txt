@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jeremy-baudry.pages.dev/sitemap.xml
+Sitemap: https://jeremybaudry.github.io/JeremyBaudry/sitemap.xml
