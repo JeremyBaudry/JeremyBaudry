@@ -265,16 +265,15 @@ a:hover { color: #7dd3fc; }
   color: var(--text);
 }
 
-.hero-traits-list {
-  margin: 0;
-  padding: 0 0 0 1.15rem;
+.hero-traits-text p {
+  margin: 0 0 0.75rem;
   color: var(--text-muted);
   font-size: 0.88rem;
   line-height: 1.65;
 }
 
-.hero-traits-list li {
-  margin-bottom: 0.2rem;
+.hero-traits-text p:last-child {
+  margin-bottom: 0;
 }
 
 .hero-tech-years {
